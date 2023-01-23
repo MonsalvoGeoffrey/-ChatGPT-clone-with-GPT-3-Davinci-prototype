@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatGPT Clone with GPT-3</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='github-dark.min.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+    <script src="{{url_for('static', filename='xss.js')}}" defer></script>
+    <script src="{{url_for('static', filename='highlight.min.js')}}" defer></script>
+    <!-- <script src="{{url_for('static', filename='languages/python.min.js')}}" defer></script> -->
+    <script src="{{url_for('static', filename='script.js')}}" defer></script>
+</head>
+<body>
+    <h1>ChatGPT clone with GPT-3</h1>
+    <div id="chat-area">
+        <!-- <p class="user-message message">Hello world</p>
+        <p class="ai-message message">World Hello</p> -->
+    </div>
+    <div id="input-area">
+        <!-- <label for="input" id="label-input">Message: </label> -->
+        <!-- <input type="textbox" value="" id="input" placeholder="Message"> -->
+        <!-- <textarea name="" id="input" cols="30" ></textarea> -->
+        <div id="input" contentEditable></div>
+    </div>
+</body>
+</html>
