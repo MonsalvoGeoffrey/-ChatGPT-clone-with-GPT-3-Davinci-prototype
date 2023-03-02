@@ -1,3 +1,7 @@
+# This repository is now archived.
+**With the realease of the ChatGPT API, and how messy my code here is, I don't plan on working on this any longer, and will start from scratch with the actual ChatGPT API later. Considering this, this repository will no longer be updated any further.**
+
+
 # ChatGPT clone with GPT-3 Davinci prototype
 
 At the moment, this is a quick and dirty prototype of a ChatBot UI to use GPT-3 in a similar way to ChatGPT by API calls. Keeping the API calls on the server side.
